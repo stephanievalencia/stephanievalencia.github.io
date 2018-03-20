@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	
+	background-color: skyblue;
+}
+
+ul { 
+	background-color: #f442d4;
+	width: 100%;
+	height: 60px;
+}
+
+ul li {
+	float: left ;
+	padding-left: 60px;
+	list-style: none ;
+	line-height: 60px; 
+}
+
+ul li a {
+	text-decoration: none; 
+	color: black;
+}
+
+ul li a:hover {
+	color:cyan;
+	font-weight: bold; 
+}
+
+h1 { 
+	font-family: 'Satisfy', cursive; 
+	text-align: center; 
+	padding: 30px}
+
+h3 {
+	color:blue;
+	font-style: italic; 
+}
+
+#sketch {
+	width:100vw;
+	height: 50vh;
+	border: none ;
+}
+
+div {
+	background-color: #9b42f4;
+	width: 100%;
+	height: 400px;
+	text-align: center;
+	margin:0 auto ;
+}
+
+div img  {
+	width: 400px;
+}
