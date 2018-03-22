@@ -40,28 +40,21 @@ h1 {
 	padding: 60px
 	font-weight:bold;}
 
-p { 
-	padding-left: 350px;
+
+
+h2 p { padding-left: 350px;
 	padding-right: 350px;
 	text-align: justify; }
-
-img 
-{ 
-	padding-left: 450px;
-	padding-right: 450px;
-}
-h2 {
-	text-align: center; 
-	font-size-adjust: 200px
-	text-color: white;
-	padding: 100px;
-	font-style: italic;
-	text-decoration: bold;
 }
 div {
 	background-color:yellow ;
 	width: 100%;
-	height: 600px;
+	height: 400px;
 	text-align: center;
 	margin:0 auto ;
+}
+img 
+{ 
+	padding-left: 500px;
+	padding-right: 500px;
 }
