@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Sketch');
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid');
 
 * {
 	margin:0;
@@ -24,7 +26,7 @@ ul li {
 ul li a {
 	text-decoration: none; 
 	color: black;
-	font-family: 'Josefin Sans', sans-serif;
+font-family: 'Londrina Sketch', cursive;
 }
 
 ul li a:hover {
@@ -34,10 +36,12 @@ ul li a:hover {
 }
 
 h1 { 
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Londrina Sketch', cursive;
 	text-align: center; 
 	text-decoration-color: cyan
 	padding: 60px
 	font-weight:bold;}
 
-p { text-align: center }
+p { text-align: center;
+	font-family: 'Londrina Solid', cursive;
+}
