@@ -9,10 +9,10 @@
 
 body {
 	
-	background-color: #e6ccff;
+	background-color: #42f4d7;
 }
 ul { 
-	background-color:white; 
+	background-color:#42f4d7; 
 	width: 100%;
 	height: 60px;
 }
@@ -25,12 +25,12 @@ ul li {
 
 ul li a {
 	text-decoration: none; 
-	color: pink;
+	color: black;
 	font-family: 'Londrina Solid', cursive;
 }
 
 ul li a:hover {
-	color:cyan;
+	color:#7742f4;
 	font-weight: bold; 
 
 }
@@ -38,41 +38,40 @@ ul li a:hover {
 h1 { 
 	font-family: 'Londrina Sketch', cursive;
 	text-align: center; 
-	text-decoration-color: cyan;
+	text-decoration-color: black;
 	padding: 60px;
 	font-weight:bold;}
 
 p a { 
 	text-align: center; 
-	padding: 450px;
-	font-size: 200px; 
+	padding: 400px;
+	font-size: 400px; 
  }
 
 
 p a:link {
-    color: #e6ccff;
-    background-color: #e6ccff;
+    color: #42f4d7;
+    background-color: #42f4d7;
     text-decoration: none;
     text-align: center;
     font-family: 'Londrina Sketch', cursive;
 }
 p a:visited {
-    color: #e6ccff;
-    background-color: #e6ccff;
+    color: #42f4d7;
+    background-color:#42f4d7;
     text-decoration: none;
     font-family: 'Londrina Sketch', cursive;
 }
 p a:hover {
-    color: cyan;
-    background-color: #e6ccff ;
-    font-size: 200px;
+    color: #7742f4;
+    background-color: #42f4d7;
+    font-size: 400px;
     font-family: 'Londrina Sketch', cursive;
     
 }
 p a:active {
-    color: pink;
-    background-color: #e6ccff ;
-
+    color:#f44183 ;
+    background-color: #42f4d7;
     
 }
 

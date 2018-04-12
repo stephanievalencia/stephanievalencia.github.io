@@ -10,6 +10,7 @@
 body {
 	
 	background-color: white;
+	color: black;
 }
 ul { 
 	background-color:white; 
@@ -35,100 +36,49 @@ ul li a:hover {
 
 }
 h1 { 
-	font-family: 'Londrina Solid', cursive;
+	font-family: 'Londrina Sketch', cursive;
 	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h2  
-	{font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h3 {font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h4 {font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h5:hover 
-    {
-    color: red;
+	text-decoration-color: black;
+	padding: 60px;
+	float: center;
+	padding-left: 80px;
+	font-weight:bold;
+	font-size: 40px;
+	
+	
+	}
+
+div {
+    border: 10px solid pink;
+    margin-left: 230px; 
+    padding: 230px;
+    width: 500px;
+    height: 780px;
+    text-align: justify;
+    font-size: 35px;
+    text-decoration-color: black;
     font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h6:hover {
-	color: red;
+    
+
+}
+div p a{ 
+	text-decoration-color: white;
+	font-size: 35px;
 	font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h7:hover {
-	color: red;font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h8:hover {
-	color: red;font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h9:hover {
-	color: red;font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h10 :hover {
-	color: red;font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h11 {font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h12 {font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h13 {font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h14 {font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h15:hover {
-	color: red;font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h16 {font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
-h17 {font-family: 'Londrina Solid', cursive;
-	text-align: center; 
-	text-decoration-color: pink
-	padding: 60px
-	font-weight:bold;}
+}
+div p a:hover { 
+	color: pink;
+	font-family: 'Londrina Solid', cursive; }
+
+
+div p a:visited {
+    color: white; 
+    text-decoration-color: white;
+    font-family: 'Londrina Solid', cursive;
+}
+div p a:hover {
+    color: pink;
+    font-size: 35px;
+    font-family: 'Londrina Solid', cursive;
+    
 
