@@ -49,11 +49,11 @@ h1 {
 	}
 
 div {
-    border: 10px solid pink;
+    border: 10px solid #f44183;
     margin-left: 230px; 
     padding: 230px;
     width: 500px;
-    height: 780px;
+    height: 800px;
     text-align: justify;
     font-size: 35px;
     text-decoration-color: black;
@@ -61,23 +61,17 @@ div {
     
 
 }
-div p a{ 
-	text-decoration-color: white;
-	font-size: 35px;
-	font-family: 'Londrina Solid', cursive;
-}
-div p a:hover { 
-	color: pink;
-	font-family: 'Londrina Solid', cursive; }
 
 
-div p a:visited {
+
+
+div p font:visited {
     color: white; 
     text-decoration-color: white;
     font-family: 'Londrina Solid', cursive;
 }
-div p a:hover {
-    color: pink;
+div p font:hover {
+    color: #f44183;
     font-size: 35px;
     font-family: 'Londrina Solid', cursive;
     
