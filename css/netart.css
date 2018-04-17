@@ -44,8 +44,10 @@ h1 {
 
 p a { 
 	text-align: center; 
-	padding: 400px;
-	font-size: 400px; 
+	padding: 60px;
+	padding-right: 80px;
+	padding-left: 80px;
+	font-size: 200px; 
  }
 
 
@@ -65,7 +67,7 @@ p a:visited {
 p a:hover {
     color: #7742f4;
     background-color: #42f4d7;
-    font-size: 400px;
+    font-size: 200px;
     font-family: 'Londrina Sketch', cursive;
     
 }
