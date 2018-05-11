@@ -11,7 +11,7 @@ function setup() {
   canvas.style ('z-index', '-1');
   colorMode(HSB, height, height, height);  
   noStroke();
-  background(255);
+  background(253,165,206);
 }
 
 function draw() {
