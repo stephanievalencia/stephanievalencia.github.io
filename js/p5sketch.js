@@ -2,8 +2,8 @@ var Canvas;
 function windowResized(){
 	resizeCanvas();
 }
-var barWidth = 1;
-var lastBar = -1;
+var barWidth = 30;
+var lastBar = 0;
 
 function setup() {
   canvas = createCanvas (windowWidth, windowHeight);
