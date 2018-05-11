@@ -1,21 +1,25 @@
-var canvas;
-
+var Canvas; 
 function windowResized(){
 	resizeCanvas();
 }
+var barWidth = 1;
+var lastBar = -1;
 
 function setup() {
   canvas = createCanvas (windowWidth, windowHeight);
   canvas.position (0, 0);
   canvas.style ('z-index', '-1');
-
+  colorMode(HSB, height, height, height);  
   noStroke();
-  fill(143, 66, 244,150);
-	
+  background(255);
 }
 
 function draw() {
-  ellipse (mouseX, mouseY, 20, 20);
-
+  var whichBar = mouseX / barWidth;
+  if (whichBar !== lastBar) {
+    var barX = whichBar * barWidth;
+    fill(mouseY, height, height);
+    rect(barX, 0, barWidth, height);
+    lastBar = whichBar;
+  }
 }
- 
