@@ -2,7 +2,7 @@ var Canvas;
 function windowResized(){
 	resizeCanvas();
 }
-var barWidth = 30;
+var barWidth = 300;
 var lastBar = 0;
 
 function setup() {
@@ -11,7 +11,7 @@ function setup() {
   canvas.style ('z-index', '-1');
   colorMode(HSB, height, height, height);  
   noStroke();
-  background(253,165,206);
+  background(0);
 }
 
 function draw() {
