@@ -2,14 +2,14 @@ var Canvas;
 function windowResized(){
 	resizeCanvas();
 }
-var barWidth = 300;
+var barWidth = 3000;
 var lastBar = 0;
 
 function setup() {
   canvas = createCanvas (windowWidth, windowHeight);
   canvas.position (0, 0);
   canvas.style ('z-index', '-1');
-  colorMode(HSB, height, height, height);  
+  colorMode(HSB, width, height, height);  
   noStroke();
   background(0);
 }
