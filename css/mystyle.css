@@ -13,7 +13,7 @@ body {
 }
 
 ul { 
-	background-color:#ffcce6; 
+	background-color:#ccfcff; 
 	width: 100%;
 	height: 60px;
 }
@@ -33,7 +33,7 @@ ul li a {
 }
 
 ul li a:hover {
-	color:cyan;
+	color:#ff4c82 ;
 	font-weight: bold; 
 
 }
