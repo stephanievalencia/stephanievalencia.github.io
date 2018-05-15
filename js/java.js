@@ -2,7 +2,7 @@ var Canvas;
 function windowResized(){
 	resizeCanvas();
 }
-var barWidth = 50;
+var barWidth = 5;
 var lastBar = 0;
 
 function setup() {
@@ -19,7 +19,7 @@ function draw() {
   if (whichBar !== lastBar) {
     var barX = whichBar * barWidth;
     fill(mouseY, height, height);
-    rect(barX, 100, barWidth, height);
+    rect(barX, 0, barWidth, height);
     lastBar = whichBar;
   }
 }
