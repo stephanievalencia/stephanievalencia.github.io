@@ -49,11 +49,23 @@ h1 {
 		padding-right: 370px;
 	}
 
+img { 
+        padding-left: 440px;
+		padding-right: 440px;
+ }
 	h2 { 
 	font-family: 'Londrina Solid', cursive;
 	text-align: justify; 
 	padding-left: 340px;
 	padding-right: 380px;
+	font-weight:bold;}
+
+	h3 { 
+	font-family: 'Londrina Solid', cursive;
+	text-align: justify; 
+	padding-left: 340px;
+	padding-right: 380px;
+	font-size: 30px;
 	font-weight:bold;}
 
 p { text-align: center 
