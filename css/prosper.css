@@ -27,11 +27,12 @@ ul li {
 ul li a {
 	text-decoration: none; 
 	color: black;
-font-family: 'Londrina Solid', cursive;
+    font-family: 'Londrina Solid', cursive;
+
 }
 
 ul li a:hover {
-	color:pink;
+	color:blue;
 	font-weight: bold; 
 
 }
