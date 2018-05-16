@@ -30,6 +30,7 @@ ul li a {
 	text-decoration: none; 
 	color: black;
 	font-family: 'Londrina Solid', cursive;
+	font-size: 30px;
 	
 
 }
@@ -51,7 +52,8 @@ h1 {
 	font-family: 'Londrina Sketch', cursive;
 	text-align: center; 
 	text-decoration-color: cyan
-	padding: 30px}
+	padding: 30px;
+	font-size: 50px;}
 
 
 h2 {
