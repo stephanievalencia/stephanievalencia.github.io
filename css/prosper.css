@@ -22,6 +22,8 @@ ul li {
 	padding-left: 20px;
 	list-style: none ;
 	line-height: 60px; 
+	font-family: 'Londrina Solid', cursive;
+
 }
 
 ul li a {
@@ -34,7 +36,15 @@ ul li a {
 ul li a:hover {
 	color:blue;
 	font-weight: bold; 
+	font-family: 'Londrina Solid', cursive;
 
+
+}
+a: hover {
+color:blue;
+	font-weight: bold; 
+	font-family: 'Londrina Solid', cursive;
+	
 }
 audio { padding:60px; 
 	padding-left: 450px;}
