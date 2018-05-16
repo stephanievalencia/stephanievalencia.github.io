@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css?family=Londrina+Sketch');
-
+@import url('https://fonts.googleapis.com/css?family=Londrina+Solid');
 * {
 	margin:0;
 	padding:0;
@@ -41,6 +41,19 @@ h1 {
 	text-align: center; 
 	text-decoration-color: cyan
 	padding: 60px
+	font-weight:bold;}
+
+
+	video {
+		padding-left: 370px;
+		padding-right: 370px;
+	}
+
+	h2 { 
+	font-family: 'Londrina Solid', cursive;
+	text-align: justify; 
+	padding-left: 340px;
+	padding-right: 380px;
 	font-weight:bold;}
 
 p { text-align: center 
