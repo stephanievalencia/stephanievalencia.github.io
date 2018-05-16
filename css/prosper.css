@@ -44,13 +44,24 @@ a: hover {
 color:blue;
 	font-weight: bold; 
 	font-family: 'Londrina Solid', cursive;
-	
+
+}
+
+h2 {font-family: 'Londrina Solid', cursive;
+	font-size: 80px;
+	text-align: center;
+	padding:100px;
+
 }
 audio { padding:60px; 
+	float:center;
 	padding-left: 450px;}
-
-video { padding: 100%; }
-		
+p {
+	font-family: 'Londrina Solid', cursive;
+	padding-left: 60px;
+	font-size: 20px;
+	float: 60px;
+}
 h1 { 
 	font-family: 'Londrina Sketch', cursive;
 	text-align: center; 
@@ -59,7 +70,8 @@ h1 {
 	float: center;
 	padding-left: 80px;
 	font-weight:bold;
-	font-size: 40px; }
+	font-size: 40px;
+	align-self: top; }
 	
 	
 
